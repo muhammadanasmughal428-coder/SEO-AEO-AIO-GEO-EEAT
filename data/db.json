@@ -1,0 +1,428 @@
+{
+  "users": [
+    {
+      "id": "user_anas_428",
+      "email": "muhammadanasmughal428@gmail.com",
+      "name": "Muhammad Anas Mughal",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "provider": "google",
+      "emailVerified": true,
+      "role": "admin",
+      "company": "Enterprise Growth Labs",
+      "createdAt": "2026-09-14T04:46:53.242Z",
+      "passwordHash": "55333b18819e388dc442ad3980aab540db5c5cbd86a5e905759ef41af4282f5bdf033d1f6fe93fc14fd7c69b31d8982377ce65ae8e9f581eb5868505814ed5a3",
+      "salt": "b13a2559045dc3b1051d18c5a1db98f9"
+    },
+    {
+      "id": "user_demo_001",
+      "email": "demo@auditor.ai",
+      "name": "Alex Rivera",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "provider": "email",
+      "emailVerified": true,
+      "role": "user",
+      "company": "Digital Nexus Inc.",
+      "createdAt": "2026-09-14T04:46:53.299Z",
+      "passwordHash": "433b226d4f934748f2201709a3dc89a8b9702b683a9beb60d34620d2fbe09b54439dde1c54e5d78ddb3ab00958c1bedc0a3fbde25af7f5d87893af4fb0bb758f",
+      "salt": "2491fab7a87aa5c565b29a0ced67b80e"
+    },
+    {
+      "id": "usr_7454c715-4dfc-447d-adea-b4591a5d5989",
+      "email": "custom.user@gmail.com",
+      "name": "Custom User",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Custom%20User",
+      "provider": "google",
+      "emailVerified": true,
+      "role": "user",
+      "company": "",
+      "createdAt": "2026-09-14T04:47:02.506Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "sess_774920e7b73f5a00071e4377adf76ce955392ef8ac96026bdd7361559949b6fb",
+      "userId": "user_anas_428",
+      "createdAt": "2026-09-14T04:46:59.153Z",
+      "expiresAt": "2026-10-14T04:46:59.153Z"
+    },
+    {
+      "token": "sess_abd3514bc93134291e20fc533a5aad2e1389873f6b0d0702724068d3aefabd8b",
+      "userId": "usr_7454c715-4dfc-447d-adea-b4591a5d5989",
+      "createdAt": "2026-09-14T04:47:02.507Z",
+      "expiresAt": "2026-10-14T04:47:02.507Z"
+    },
+    {
+      "token": "sess_f45b2e881b33eabd4cfe8bd64e2e3243277a4a2946117421d1375be7e401d1b5",
+      "userId": "user_anas_428",
+      "createdAt": "2026-09-14T04:47:04.590Z",
+      "expiresAt": "2026-10-14T04:47:04.590Z"
+    },
+    {
+      "token": "sess_00def289a90bfb0adff13d7a73e1fa74cf3fcbb38e710c39803581280de40d50",
+      "userId": "user_anas_428",
+      "createdAt": "2026-09-14T04:47:09.435Z",
+      "expiresAt": "2026-10-14T04:47:09.435Z"
+    },
+    {
+      "token": "sess_31961062a91083eca90780dc7e55ca58d62e749c95bb62bf795b7fe77430f747",
+      "userId": "user_anas_428",
+      "createdAt": "2026-09-14T04:47:11.685Z",
+      "expiresAt": "2026-10-14T04:47:11.685Z"
+    },
+    {
+      "token": "sess_c23ec4109f682e0b5691c6eaa46d1096c58c3dd8ff0018360945c3a408434846",
+      "userId": "user_anas_428",
+      "createdAt": "2026-09-14T04:47:13.694Z",
+      "expiresAt": "2026-10-14T04:47:13.694Z"
+    },
+    {
+      "token": "sess_9baf90baff8f7cc7315f88b8cb869aed31ccd99b73e852c04d7f2d4c79e98804",
+      "userId": "user_anas_428",
+      "createdAt": "2026-09-14T04:47:34.950Z",
+      "expiresAt": "2026-10-14T04:47:34.950Z"
+    },
+    {
+      "token": "sess_ca6ecfd7a11e4b03e13ed6d79a226fc17003055e59bf772016a4e551365f64c1",
+      "userId": "user_anas_428",
+      "createdAt": "2026-09-14T04:47:41.620Z",
+      "expiresAt": "2026-10-14T04:47:41.620Z"
+    }
+  ],
+  "audits": [
+    {
+      "id": "aud_1789361226806_ntkhe",
+      "userId": "user_anas_428",
+      "baseDomain": "example.com",
+      "rootUrl": "https://example.com/",
+      "createdAt": "2026-09-14T04:47:06.806Z",
+      "overallAverageScore": 35,
+      "status": "completed",
+      "pages": [
+        {
+          "id": "rpt_1789361224766_lriyn",
+          "url": "https://example.com/",
+          "finalUrl": "https://example.com/",
+          "httpStatus": 200,
+          "responseTimeMs": 59,
+          "timestamp": "2026-09-14T04:47:04.766Z",
+          "overallScore": 35,
+          "seo": {
+            "score": 66,
+            "passedCount": 4,
+            "warningCount": 5,
+            "criticalCount": 1,
+            "statusSummary": "Acceptable baseline with actionable improvement areas"
+          },
+          "aeo": {
+            "score": 55,
+            "passedCount": 0,
+            "warningCount": 3,
+            "criticalCount": 0,
+            "statusSummary": "Requires critical remediation"
+          },
+          "aio": {
+            "score": 8,
+            "passedCount": 0,
+            "warningCount": 1,
+            "criticalCount": 2,
+            "statusSummary": "Requires critical remediation"
+          },
+          "geo": {
+            "score": 23,
+            "passedCount": 0,
+            "warningCount": 2,
+            "criticalCount": 1,
+            "statusSummary": "Requires critical remediation"
+          },
+          "eeat": {
+            "score": 0,
+            "passedCount": 0,
+            "warningCount": 0,
+            "criticalCount": 5,
+            "statusSummary": "Requires critical remediation"
+          },
+          "findings": [
+            {
+              "id": "seo_http_status",
+              "category": "SEO",
+              "title": "HTTP Status 200 OK",
+              "status": "PASS",
+              "scoreImpact": 10,
+              "evidence": "Server returned HTTP 200 OK in 59ms",
+              "recommendation": "Target URL is accessible to search engines.",
+              "priority": "low"
+            },
+            {
+              "id": "seo_https",
+              "category": "SEO",
+              "title": "HTTPS Secure Encryption",
+              "status": "PASS",
+              "scoreImpact": 8,
+              "evidence": "Website is served securely over HTTPS protocol (https://example.com/).",
+              "recommendation": "Maintain active TLS certificates and HSTS.",
+              "priority": "low"
+            },
+            {
+              "id": "seo_title",
+              "category": "SEO",
+              "title": "Title Tag Too Short",
+              "status": "WARNING",
+              "scoreImpact": 5,
+              "evidence": "Found: \"Example Domain\" (14 characters). Search engines recommend 30-60 characters.",
+              "recommendation": "Add descriptive keywords to improve CTR.",
+              "priority": "medium"
+            },
+            {
+              "id": "seo_description",
+              "category": "SEO",
+              "title": "Missing Meta Description",
+              "status": "CRITICAL",
+              "scoreImpact": -12,
+              "evidence": "No <meta name=\"description\"> found in page header.",
+              "recommendation": "Add a meta description summarizing the page content in 140-160 characters.",
+              "priority": "high"
+            },
+            {
+              "id": "seo_canonical",
+              "category": "SEO",
+              "title": "Missing Canonical Link Element",
+              "status": "WARNING",
+              "scoreImpact": 2,
+              "evidence": "No <link rel=\"canonical\"> tag detected in document <head>.",
+              "recommendation": "Specify canonical URL to protect against duplicate content indexing.",
+              "priority": "medium"
+            },
+            {
+              "id": "seo_h1",
+              "category": "SEO",
+              "title": "Single H1 Heading Configured",
+              "status": "PASS",
+              "scoreImpact": 8,
+              "evidence": "Found 1 primary <h1>: \"Example Domain\"",
+              "recommendation": "Maintain single primary topic hierarchy.",
+              "priority": "low"
+            },
+            {
+              "id": "seo_images",
+              "category": "SEO",
+              "title": "No Images Detected",
+              "status": "PASS",
+              "scoreImpact": 5,
+              "evidence": "Page contains 0 <img> tags.",
+              "recommendation": "Consider adding contextual visual assets to increase user engagement.",
+              "priority": "low"
+            },
+            {
+              "id": "seo_og",
+              "category": "SEO",
+              "title": "Incomplete Open Graph Tags",
+              "status": "WARNING",
+              "scoreImpact": 2,
+              "evidence": "Found 0 Open Graph tags (none).",
+              "recommendation": "Implement og:title, og:description, og:image, og:url for rich social sharing.",
+              "priority": "medium"
+            },
+            {
+              "id": "seo_robots",
+              "category": "SEO",
+              "title": "robots.txt Not Accessible",
+              "status": "WARNING",
+              "scoreImpact": 0,
+              "evidence": "No robots.txt detected at domain root /robots.txt.",
+              "recommendation": "Deploy a robots.txt file to guide search engine crawlers.",
+              "priority": "medium"
+            },
+            {
+              "id": "seo_sitemap",
+              "category": "SEO",
+              "title": "XML Sitemap Missing at Root",
+              "status": "WARNING",
+              "scoreImpact": 2,
+              "evidence": "Could not locate sitemap.xml at /sitemap.xml.",
+              "recommendation": "Generate an XML sitemap and reference it inside robots.txt.",
+              "priority": "medium"
+            },
+            {
+              "id": "aeo_faq",
+              "category": "AEO",
+              "title": "FAQ & Direct Answer Opportunity",
+              "status": "WARNING",
+              "scoreImpact": 5,
+              "evidence": "No formal FAQ block or FAQPage Schema detected on this page.",
+              "recommendation": "Add an FAQ section with direct question-and-answer pairs matching user query intent.",
+              "priority": "high"
+            },
+            {
+              "id": "aeo_question_headings",
+              "category": "AEO",
+              "title": "Few Question-Based Headings",
+              "status": "WARNING",
+              "scoreImpact": 4,
+              "evidence": "Only 0 question pattern headings found.",
+              "recommendation": "Adopt conversational question headings (e.g., \"What is...\", \"How to...\") to trigger Answer Engine extractions.",
+              "priority": "medium"
+            },
+            {
+              "id": "aeo_snippet_structure",
+              "category": "AEO",
+              "title": "Unstructured Text Flow for Snippets",
+              "status": "WARNING",
+              "scoreImpact": 3,
+              "evidence": "No bulleted lists or tabular data structures found on page.",
+              "recommendation": "Format core steps, features, or specifications into HTML <ul>/<ol> lists to increase snippet eligibility.",
+              "priority": "medium"
+            },
+            {
+              "id": "aio_structured_data",
+              "category": "AIO",
+              "title": "Missing Machine-Readable JSON-LD",
+              "status": "CRITICAL",
+              "scoreImpact": -10,
+              "evidence": "No JSON-LD structured data detected. AI scrapers must rely solely on raw text parsing.",
+              "recommendation": "Inject JSON-LD schemas (WebPage, Organization, Article, or FAQPage) to clarify entities for AI models.",
+              "priority": "high"
+            },
+            {
+              "id": "aio_context_depth",
+              "category": "AIO",
+              "title": "Thin Content for AI Context Processing",
+              "status": "CRITICAL",
+              "scoreImpact": -8,
+              "evidence": "Extracted only 17 words of readable body text.",
+              "recommendation": "Substantially expand page content with detailed explanations and verifiable context.",
+              "priority": "high"
+            },
+            {
+              "id": "aio_semantic_hierarchy",
+              "category": "AIO",
+              "title": "Shallow Heading Hierarchy",
+              "status": "WARNING",
+              "scoreImpact": 3,
+              "evidence": "Found 0 H2s and 0 H3s. Flat content structures complicate AI chunking.",
+              "recommendation": "Structure topics into granular subheadings (H2, H3) to aid AI RAG retrieval systems.",
+              "priority": "medium"
+            },
+            {
+              "id": "geo_entities",
+              "category": "GEO",
+              "title": "Weak Entity Disambiguation",
+              "status": "WARNING",
+              "scoreImpact": 4,
+              "evidence": "Limited recognizable named entities found in structured headers.",
+              "recommendation": "Clarify organization name, parent company, and primary product entities using schema.org/Organization.",
+              "priority": "high"
+            },
+            {
+              "id": "geo_citations",
+              "category": "GEO",
+              "title": "Missing External Citations or Sources",
+              "status": "WARNING",
+              "scoreImpact": 3,
+              "evidence": "Only 1 outbound link(s) detected. Generative engines favor cited assertions.",
+              "recommendation": "Include citations and links to authoritative source material to validate claims.",
+              "priority": "medium"
+            },
+            {
+              "id": "geo_about",
+              "category": "GEO",
+              "title": "About Page Link Not Found",
+              "status": "NOT_FOUND",
+              "scoreImpact": 0,
+              "evidence": "No link containing \"about\", \"about-us\", or \"team\" found in navigation.",
+              "recommendation": "Provide an accessible About Us page link in the header or footer.",
+              "priority": "medium"
+            },
+            {
+              "id": "eeat_author",
+              "category": "EEAT",
+              "title": "Author Attribution Not Found",
+              "status": "NOT_FOUND",
+              "scoreImpact": 0,
+              "evidence": "No explicit author byline, biographical snippet, or Person schema detected.",
+              "recommendation": "Add author bylines with professional credentials, degrees, or verified experience.",
+              "priority": "high"
+            },
+            {
+              "id": "eeat_contact",
+              "category": "EEAT",
+              "title": "Contact Information Not Found",
+              "status": "NOT_FOUND",
+              "scoreImpact": 0,
+              "evidence": "No visible email address, phone number, or Contact Us link detected.",
+              "recommendation": "Provide clear, verifiable contact channels (email, phone, physical location) to foster user trust.",
+              "priority": "high"
+            },
+            {
+              "id": "eeat_privacy",
+              "category": "EEAT",
+              "title": "Privacy Policy Link Not Found",
+              "status": "NOT_FOUND",
+              "scoreImpact": 0,
+              "evidence": "No hyperlink matching privacy policy keywords found.",
+              "recommendation": "Publish and link a legally compliant Privacy Policy in the global footer.",
+              "priority": "high"
+            },
+            {
+              "id": "eeat_terms",
+              "category": "EEAT",
+              "title": "Terms of Service Not Found",
+              "status": "NOT_FOUND",
+              "scoreImpact": 0,
+              "evidence": "No Terms of Service link found on the audited page.",
+              "recommendation": "Add clear Terms of Service to clarify user agreements and operational disclosures.",
+              "priority": "medium"
+            },
+            {
+              "id": "eeat_security_headers",
+              "category": "EEAT",
+              "title": "Missing Core Security Headers",
+              "status": "NOT_FOUND",
+              "scoreImpact": 0,
+              "evidence": "Missing one or more trust headers (HSTS: false, X-Content-Type-Options: false, CSP: false).",
+              "recommendation": "Configure HSTS, X-Content-Type-Options, and CSP to demonstrate technical integrity.",
+              "priority": "medium"
+            }
+          ],
+          "technicalData": {
+            "title": "Example Domain",
+            "hasRobotsTxt": false,
+            "hasSitemap": false,
+            "h1Count": 1,
+            "h1Text": "Example Domain",
+            "h2Count": 0,
+            "h3Count": 0,
+            "imagesCount": 0,
+            "imagesMissingAlt": 0,
+            "internalLinksCount": 0,
+            "externalLinksCount": 1,
+            "openGraph": {},
+            "twitterCards": {},
+            "jsonLdSchemas": [],
+            "hasSchemaOrg": false,
+            "language": "en",
+            "viewport": "width=device-width, initial-scale=1",
+            "securityHeaders": {
+              "hsts": false,
+              "xContentTypeOptions": false,
+              "xFrameOptions": false,
+              "contentSecurityPolicy": false
+            },
+            "isHttps": true,
+            "contentWordCount": 17,
+            "hasFaqSection": false,
+            "hasAuthorBio": false,
+            "hasAboutPageLink": false,
+            "hasContactInfo": false,
+            "hasPrivacyPolicyLink": false,
+            "hasTermsLink": false,
+            "hasEditorialPolicy": false,
+            "foundEntities": [
+              "Domain Brand: EXAMPLE"
+            ],
+            "sampleQuestions": []
+          }
+        }
+      ]
+    }
+  ]
+}
