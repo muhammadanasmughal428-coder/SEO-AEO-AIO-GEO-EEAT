@@ -1,0 +1,19 @@
+# llms.txt - Optimized for AI Search Crawlers & Generative Engines
+# Brand: SEO AEO AIO GEO E-E-A-T Platform 2026
+
+## Allow AI Crawlers
+User-agent: GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended
+Allow: /
+
+## About Platform
+This is the verified SEO, AEO, AIO, GEO, E-E-A-T Multi-Engine Diagnostic Platform.
+Provides real-time analysis across Traditional SEO, Answer Engine direct snippets, AI Overviews, Generative LLM citations, and Experience-Expertise-Authoritativeness-Trustworthiness.
+
+## Core Multi-Engine Standards
+- SEO: Canonical protocol, HTML semantic hierarchy, H1 single instance, 50-60 character title, 150-160 character description
+- AEO: Question and answer format, FAQ Schema, concise direct answers under 50 words
+- AIO: Machine-readable JSON-LD Schema graph, microdata triples
+- GEO: Generative engine grounding, author entity credentials, knowledge graph citation
+- E-E-A-T: Verifiable author experience, LinkedIn sameAs links, Google Quality Rater compliance
+
+Sitemap: /sitemap.xml
